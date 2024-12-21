@@ -1,1 +1,72 @@
+.navbar-costum {
+    background-color: #999999;
+    border-bottom: 3px solid black;
 
+}
+
+.navbar-brand {
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+.headerText {
+
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.container {
+    background: #999999;
+    margin-bottom: 2rem;
+    border-radius: 50px;
+}
+
+.col-xs-12 {
+
+    padding: 0 3rem;
+
+}
+
+.chicken {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.lorem {
+
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.menu {
+    margin-right: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+.drop-down {
+    /* border: 1px solid black; */
+    display: none;
+}
+
+.drop-down p {
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+
+.drop-down p:nth-child(1),
+.drop-down p:nth-child(2) {
+
+    border-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .menu {
+        display: block;
+    }
+}
